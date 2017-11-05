@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E5AD89162641A92300D76B2E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E5AD89152641A92300D76B2E /* AppDelegate.m */; };
+		E5AD89212641A92400D76B2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5AD89202641A92400D76B2E /* Assets.xcassets */; };
+		E5AD89242641A92400D76B2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5AD89222641A92400D76B2E /* LaunchScreen.storyboard */; };
+		E5AD89272641A92400D76B2E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E5AD89262641A92400D76B2E /* main.m */; };
+		E5AD892F2641AAA900D76B2E /* ScrollTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5AD892E2641AAA900D76B2E /* ScrollTabBarController.m */; };
+		E5AD89322641AAEE00D76B2E /* WeChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5AD89312641AAEE00D76B2E /* WeChatViewController.m */; };
+		E5AD89352641AB0700D76B2E /* ContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5AD89342641AB0700D76B2E /* ContactsViewController.m */; };
+		E5AD89382641AB1600D76B2E /* DiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5AD89372641AB1600D76B2E /* DiscoverViewController.m */; };
+		E5AD893B2641AB2100D76B2E /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5AD893A2641AB2100D76B2E /* MeViewController.m */; };
+		E5DEE84826428F6C002F35A3 /* TabBarVCDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E5DEE84726428F6C002F35A3 /* TabBarVCDelegate.m */; };
+		E5DEE84B26429221002F35A3 /* SlideAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5DEE84A26429221002F35A3 /* SlideAnimationController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E5AD89112641A92300D76B2E /* CustomScrollTabBarController_OC_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomScrollTabBarController_OC_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5AD89142641A92300D76B2E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E5AD89152641A92300D76B2E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E5AD89202641A92400D76B2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E5AD89232641A92400D76B2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E5AD89252641A92400D76B2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5AD89262641A92400D76B2E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E5AD892D2641AAA900D76B2E /* ScrollTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScrollTabBarController.h; sourceTree = "<group>"; };
+		E5AD892E2641AAA900D76B2E /* ScrollTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollTabBarController.m; sourceTree = "<group>"; };
+		E5AD89302641AAEE00D76B2E /* WeChatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeChatViewController.h; sourceTree = "<group>"; };
+		E5AD89312641AAEE00D76B2E /* WeChatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeChatViewController.m; sourceTree = "<group>"; };
+		E5AD89332641AB0700D76B2E /* ContactsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactsViewController.h; sourceTree = "<group>"; };
+		E5AD89342641AB0700D76B2E /* ContactsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactsViewController.m; sourceTree = "<group>"; };
+		E5AD89362641AB1600D76B2E /* DiscoverViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DiscoverViewController.h; sourceTree = "<group>"; };
+		E5AD89372641AB1600D76B2E /* DiscoverViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiscoverViewController.m; sourceTree = "<group>"; };
+		E5AD89392641AB2100D76B2E /* MeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeViewController.h; sourceTree = "<group>"; };
+		E5AD893A2641AB2100D76B2E /* MeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeViewController.m; sourceTree = "<group>"; };
+		E5DEE84626428F6C002F35A3 /* TabBarVCDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBarVCDelegate.h; sourceTree = "<group>"; };
+		E5DEE84726428F6C002F35A3 /* TabBarVCDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarVCDelegate.m; sourceTree = "<group>"; };
+		E5DEE84926429221002F35A3 /* SlideAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideAnimationController.h; sourceTree = "<group>"; };
+		E5DEE84A26429221002F35A3 /* SlideAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideAnimationController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E5AD890E2641A92300D76B2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E5AD89082641A92300D76B2E = {
+			isa = PBXGroup;
+			children = (
+				E5AD89132641A92300D76B2E /* CustomScrollTabBarController_OC_Demo */,
+				E5AD89122641A92300D76B2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E5AD89122641A92300D76B2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E5AD89112641A92300D76B2E /* CustomScrollTabBarController_OC_Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E5AD89132641A92300D76B2E /* CustomScrollTabBarController_OC_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				E5AD89142641A92300D76B2E /* AppDelegate.h */,
+				E5AD89152641A92300D76B2E /* AppDelegate.m */,
+				E5DEE84626428F6C002F35A3 /* TabBarVCDelegate.h */,
+				E5DEE84726428F6C002F35A3 /* TabBarVCDelegate.m */,
+				E5DEE84926429221002F35A3 /* SlideAnimationController.h */,
+				E5DEE84A26429221002F35A3 /* SlideAnimationController.m */,
+				E5AD893C2642504C00D76B2E /* ViewControllers */,
+				E5AD89202641A92400D76B2E /* Assets.xcassets */,
+				E5AD89222641A92400D76B2E /* LaunchScreen.storyboard */,
+				E5AD89252641A92400D76B2E /* Info.plist */,
+				E5AD89262641A92400D76B2E /* main.m */,
+			);
+			path = CustomScrollTabBarController_OC_Demo;
+			sourceTree = "<group>";
+		};
+		E5AD893C2642504C00D76B2E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E5AD892D2641AAA900D76B2E /* ScrollTabBarController.h */,
+				E5AD892E2641AAA900D76B2E /* ScrollTabBarController.m */,
+				E5AD89302641AAEE00D76B2E /* WeChatViewController.h */,
+				E5AD89312641AAEE00D76B2E /* WeChatViewController.m */,
+				E5AD89332641AB0700D76B2E /* ContactsViewController.h */,
+				E5AD89342641AB0700D76B2E /* ContactsViewController.m */,
+				E5AD89362641AB1600D76B2E /* DiscoverViewController.h */,
+				E5AD89372641AB1600D76B2E /* DiscoverViewController.m */,
+				E5AD89392641AB2100D76B2E /* MeViewController.h */,
+				E5AD893A2641AB2100D76B2E /* MeViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E5AD89102641A92300D76B2E /* CustomScrollTabBarController_OC_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5AD892A2641A92400D76B2E /* Build configuration list for PBXNativeTarget "CustomScrollTabBarController_OC_Demo" */;
+			buildPhases = (
+				E5AD890D2641A92300D76B2E /* Sources */,
+				E5AD890E2641A92300D76B2E /* Frameworks */,
+				E5AD890F2641A92300D76B2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomScrollTabBarController_OC_Demo;
+			productName = CustomScrollTabBarController_OC_Demo;
+			productReference = E5AD89112641A92300D76B2E /* CustomScrollTabBarController_OC_Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E5AD89092641A92300D76B2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					E5AD89102641A92300D76B2E = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = E5AD890C2641A92300D76B2E /* Build configuration list for PBXProject "CustomScrollTabBarController_OC_Demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E5AD89082641A92300D76B2E;
+			productRefGroup = E5AD89122641A92300D76B2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5AD89102641A92300D76B2E /* CustomScrollTabBarController_OC_Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E5AD890F2641A92300D76B2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5AD89242641A92400D76B2E /* LaunchScreen.storyboard in Resources */,
+				E5AD89212641A92400D76B2E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E5AD890D2641A92300D76B2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5AD89322641AAEE00D76B2E /* WeChatViewController.m in Sources */,
+				E5AD89382641AB1600D76B2E /* DiscoverViewController.m in Sources */,
+				E5AD893B2641AB2100D76B2E /* MeViewController.m in Sources */,
+				E5AD89162641A92300D76B2E /* AppDelegate.m in Sources */,
+				E5AD89352641AB0700D76B2E /* ContactsViewController.m in Sources */,
+				E5DEE84826428F6C002F35A3 /* TabBarVCDelegate.m in Sources */,
+				E5AD892F2641AAA900D76B2E /* ScrollTabBarController.m in Sources */,
+				E5DEE84B26429221002F35A3 /* SlideAnimationController.m in Sources */,
+				E5AD89272641A92400D76B2E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E5AD89222641A92400D76B2E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5AD89232641A92400D76B2E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E5AD89282641A92400D76B2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E5AD89292641A92400D76B2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E5AD892B2641A92400D76B2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D7U2J7XET2;
+				INFOPLIST_FILE = CustomScrollTabBarController_OC_Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaochaowei.CustomScrollTabBarController-OC-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E5AD892C2641A92400D76B2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D7U2J7XET2;
+				INFOPLIST_FILE = CustomScrollTabBarController_OC_Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaochaowei.CustomScrollTabBarController-OC-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E5AD890C2641A92300D76B2E /* Build configuration list for PBXProject "CustomScrollTabBarController_OC_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5AD89282641A92400D76B2E /* Debug */,
+				E5AD89292641A92400D76B2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5AD892A2641A92400D76B2E /* Build configuration list for PBXNativeTarget "CustomScrollTabBarController_OC_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5AD892B2641A92400D76B2E /* Debug */,
+				E5AD892C2641A92400D76B2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E5AD89092641A92300D76B2E /* Project object */;
+}
