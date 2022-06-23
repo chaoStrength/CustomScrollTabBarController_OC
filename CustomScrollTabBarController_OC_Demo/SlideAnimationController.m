@@ -9,7 +9,6 @@
 
 @interface SlideAnimationController ()
 
-@property (nonatomic, assign) UINavigationControllerOperation operation;
 @property (nonatomic, assign) TabOperationDirection direction;
 
 @end
