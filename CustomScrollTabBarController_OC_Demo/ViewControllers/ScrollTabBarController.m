@@ -72,6 +72,11 @@
         [[UITabBar appearance] setTintColor:_selectedAttribute[NSForegroundColorAttributeName]];
         [[UITabBar appearance] setUnselectedItemTintColor:_normalAttribute[NSForegroundColorAttributeName]];
     }
+    if (@available(iOS 15.0, *)) {
+        UITabBarAppearance *appearance = [[UITabBarAppearance alloc] init];
+        appearance.backgroundColor = UIColor.whiteColor;
+        self.tabBar.scrollEdgeAppearance = appearance;
+    }
 }
 
 - (void)viewDidLoad {
